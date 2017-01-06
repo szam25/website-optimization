@@ -7,6 +7,7 @@ Achieved Pagespeed Insights score for index.html by,
     4. Sites performance is increased with hardware accelerated CSS as to add transform: translateZ(0) and backface-visibility: hidden in .mover floder.
     5. Remove css/print.css as it has no uses.
     6. Adding async javascript to remove render blocking javascript in index.html.
+    7. Made a copy of pizzeria.jpg in index.html and resize it.
  
 Achieved 60 fps for pizza.html by,
     1. Optimized the loops to eliminate multiple instants of DOM acess.
