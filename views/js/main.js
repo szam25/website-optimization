@@ -397,7 +397,7 @@ var pizzaElementGenerator = function(i) {
 
   return pizzaContainer;
 };
-
+"use strict";
 // resizePizzas(size) is called when the slider in the "Our Pizzas" section of the website moves.
 var resizePizzas = function(size) {
   window.performance.mark("mark_start_resize");   // User Timing API function
@@ -451,7 +451,8 @@ var resizePizzas = function(size) {
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
     var docu_query = document.querySelectorAll(".randomPizzaContainer");
-    for (var i = 0; i < docu_query.length; i++) {
+  
+    for (var i = 0, end_value = docu_query.length; i < end_value; i++) {
       var dx = determineDx(docu_query[i], size);
       var newwidth = (docu_query[i].offsetWidth + dx) + 'px';
       docu_query[i].style.width = newwidth;
@@ -506,7 +507,7 @@ function updatePositions() {
   window.performance.mark("mark_start_frame");
 
   var math_cal = (document.body.scrollTop / 1250);
-  for (var i = 0; i < items.length; i++) {
+  for (var i = 0, phase, len = items.length; i < len ; i++) {
     var phase = Math.sin( math_cal + (i % 5));
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
   }
