@@ -22,5 +22,9 @@ Achieved 60 fps for pizza.html by,
     10. The document.getElementById() Web API call is faster. So, moving this DOM call outside the for statement and save it into a local variable.
   ***********************************************************************************************************************
 ** How to run the files **
-1. Just click on the link https://github.com/szam25/website-optimization/edit/master/index.html
-2.
+1. Just click on the link https://github.com/szam25/website-optimization
+2. Open/Download index.html
+3. Check Pagespeed Insight
+4. Open/Download pizza.html
+5. Check the fps by simply right click of google crome to get the inspect button.
+6. Load the timeline to check the fps.
