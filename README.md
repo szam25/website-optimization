@@ -1,5 +1,5 @@
 ## Website Performance Optimization portfolio project
-
+ ***************************************************************************************************************************
 Achieved Pagespeed Insights score for index.html by,
     1. Optimised the pictures of index.html by imageoptim.
     2. Loading google-font vai javascript in index.html.
@@ -20,3 +20,7 @@ Achieved 60 fps for pizza.html by,
     8. The number of background pizzas is reduced to 24.
     9. The elem variable is initialized so the for loop will prevent it from being created every time the loop is executed.
     10. The document.getElementById() Web API call is faster. So, moving this DOM call outside the for statement and save it into a local variable.
+  ***********************************************************************************************************************
+** How to run the files **
+1. Just click on the link https://github.com/szam25/website-optimization/edit/master/index.html
+2.
