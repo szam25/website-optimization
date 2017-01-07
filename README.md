@@ -25,6 +25,6 @@ Achieved 60 fps for pizza.html by,
 1. Just click on the link https://github.com/szam25/website-optimization/blob/master/index.html
 2. Open/Download index.html
 3. Check Pagespeed Insight
-4. Open/Download pizza.html
+4. Open/Download https://github.com/szam25/website-optimization/blob/master/views/pizza.html
 5. Check the fps by simply right click of google crome to get the inspect button.
 6. Load the timeline to check the fps.
